@@ -1,7 +1,7 @@
 // Point these to where your PHP backend lives.
 window.CFG = {
-  API: "https://nevinfx.kisikypharmacy.com/api/index.php", //http://localhost:8000/api/index.php
-  UPLOADS: "https://nevinfx.kisikypharmacy.com//uploads/", //http://localhost:8000/uploads/
+  API: "https://nevinfx.kisikypharmacy.com/", //http://localhost:8000/api/index.php
+  UPLOADS: "https://nevinfx.kisikypharmacy.com/uploads/", //http://localhost:8000/uploads/
   BRAND: "NevinFX Academy",
   PRICE: "$10",
   // Shown to users when they subscribe. Edit with YOUR payment details.
