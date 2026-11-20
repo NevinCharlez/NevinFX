@@ -1,7 +1,7 @@
 <?php
 require __DIR__.'/config.php';
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: '.ALLOWED_ORIGIN);
+header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Content-Type');
 if($_SERVER['REQUEST_METHOD']==='OPTIONS') exit;
 function out($d,$c=200){http_response_code($c);echo json_encode($d);exit;}
